@@ -2,19 +2,27 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>Personal - Vito Chin</title>
+<title>To queue or not to queue - Vito Chin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="generator" content="Hugo 0.64.1" /><meta itemprop="name" content="Personal">
-<meta itemprop="description" content=""><meta property="og:title" content="Personal" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://vitochin.com/categories/personal/" />
-<meta property="og:updated_time" content="2020-02-21T00:00:00+00:00" />
+<meta name="generator" content="Hugo 0.64.1" /><meta itemprop="name" content="To queue or not to queue">
+<meta itemprop="description" content="Architectural queueing considerations">
+<meta itemprop="datePublished" content="2020-03-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-03-28T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="318">
+
+
+
+<meta itemprop="keywords" content="partners,queue,cloud,software,architecture," /><meta property="og:title" content="To queue or not to queue" />
+<meta property="og:description" content="Architectural queueing considerations" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vitochin.com/blog/queue/" />
+<meta property="article:published_time" content="2020-03-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-28T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Personal"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="To queue or not to queue"/>
+<meta name="twitter:description" content="Architectural queueing considerations"/>
 <meta name="twitter:site" content="@vitoc"/>
 <link rel="stylesheet" href="/css/bundle.min.49ca2ed1cea28b71ebff29d561987a0a01aa82d510f11bfafc66dc26d44a256e.css" integrity="sha256-Scou0c6ii3Hr/ynVYZh6CgGqgtUQ8Rv6/GbcJtRKJW4=">
         <link rel="stylesheet" href="/css/add-on.css">
@@ -135,40 +143,56 @@
 </section>
 
       <main id="site-main">
-        <h1>Personal</h1>
-        
-        
-            <article class="post">
+        <article class="post">
   <header>
   <div class="title">
     
-        <h2><a href="/blog/2020/">Writing, 2020</a></h2>
+        <h2><a href="/blog/queue/">To queue or not to queue</a></h2>
     
     
-        <p>I still believe it is useful, changing how I do it to do more</p>
+        <p>Architectural queueing considerations</p>
     
 </div>
   <div class="meta">
-    <time class="published" datetime="2020-02-21 00:00:00 &#43;0000 UTC">
-      February 21, 2020
+    <time class="published" datetime="2020-03-28 00:00:00 &#43;0000 UTC">
+      March 28, 2020
     </time>
     <span class="author">Vito Chin</span>
     
-      <p>1 minute read</p>
+      <p>2 minutes read</p>
     
   </div>
 </header>
 
+  <section id="socnet-share">
+    
+
+
+
+
+
+  </section>
   
-  <a style="padding-left: 30px" href="/blog/2020/" class="image">
-    <div style="width: 100%; height: 200px; background-repeat: no-repeat; background-image: url('https://source.unsplash.com/0gkw_9fy0eQ/816x200'); "></div>
+  <a style="padding-left: 30px" href="/blog/queue/" class="image">
+    <div style="width: 100%; height: 200px; background-repeat: no-repeat; background-image: url('https://source.unsplash.com/VYeFTyjns0M/816x200'); "></div>
   </a>
 
 
-  
-  <p>In the past, I used to write long form blogs, with proper sentences and paragraphs :)</p>
+  <div class="content">
+    <p>It’s kind of a tacit art more than science.</p>
+<p>It also depends on the motivations of the architect and the team.</p>
+<p>Ceteris paribus (i.e. we do not consider application design here), I’ll say there’s the ideal, and there’s the pragmatic.</p>
+<p>Ideally, the <!-- raw HTML omitted -->queue-based load leveling pattern<!-- raw HTML omitted --> calls for a high throughput queue to be placed before services (such as that for data persistency) as it may be slower (memory vs disk, etc.) than what can be achieved with a queue. This may not be the case for horizontally scalable data layers such as Azure Cosmos DB (depdending on chosen consistency model and requirements too), but is very valid for scenarios such as when a blockchain is the persistency layer.</p>
+<p>To be on the safe side, cloud architects will typically ask for a queue to buffer throughput, de facto.</p>
+<p>From a pragmatic perspective though, sometimes both queue mechanisms such as Azure Cache for Redis, Azure Event Hubs and database    services such as Azure Cosmos DB has very high throughput. So, the next factor to consider in deciding this is cost.</p>
+<p>Cost requires a deeper level of analysis with throughput info over time and etc. There’s also engineering cost, as queue typically adds a layer of consideration too, implementation of the worker, etc. What is the longevity of the application?</p>
+<p>We also do encounter scenarios where the development team is small or has a tight timeline. So, it may be ‘least code to feature’ for the time being, then implement a queue as the software proves business value, etc.</p>
+<p>In a high stakes application, safety and availability then takes priority. The key is to find a balance between technical perfection vs business tactics/needs.</p>
+<p>Finally, there’s also the <!-- raw HTML omitted -->Retry pattern<!-- raw HTML omitted --> to consider, i.e. which option gives the highest resistance to transient unavailability of a service.</p>
+<p>These are some of the less technically formal but still commercially valid points when considering queues in architecture.</p>
+
+  </div>
   <footer>
-    <a href="/blog/2020/" class="button big">Read more</a>
     <ul class="stats">
   
     
@@ -177,7 +201,7 @@
         <ul>
           
             
-            <li><a class="article-category-link" href="https://vitochin.com/categories/personal">Personal</a></li>
+            <li><a class="article-category-link" href="https://vitochin.com/categories/azure">Azure</a></li>
           
         </ul>
       </li>
@@ -190,7 +214,19 @@
         <ul>
           
             
-            <li><a class="article-category-link" href="https://vitochin.com/tags/writing">writing</a></li>
+            <li><a class="article-category-link" href="https://vitochin.com/tags/partners">partners</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://vitochin.com/tags/queue">queue</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://vitochin.com/tags/cloud">cloud</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://vitochin.com/tags/software">software</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://vitochin.com/tags/architecture">architecture</a></li>
           
         </ul>
       </li>
@@ -201,16 +237,14 @@
   </footer>
 </article>
 
-        
-        
+
 <div class="pagination">
   
-    <a href="#" class="disabled button big previous"><i class="fas fa-angle-left"></i></a>
+    <a href="/blog/2020/" class="button"><div class="previous"><div>Writing, 2020</div></div></a>
   
-  
-    <a href="#" class="disabled button big next"><i class="fas fa-angle-right"></i></a>
   
 </div>
+
 
       </main>
       <section id="site-sidebar">
@@ -288,8 +322,6 @@
   
       <ul class="socnet-icons">
         
-    <li><a href="/categories/personal/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
-
 
         <li><a href="//github.com/vitoc" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
 

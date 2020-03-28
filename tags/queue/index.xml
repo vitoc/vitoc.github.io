@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Vito Chin</title>
-    <link>https://vitochin.com/blog/</link>
-    <description>Recent content in Blog on Vito Chin</description>
+    <title>queue on Vito Chin</title>
+    <link>https://vitochin.com/tags/queue/</link>
+    <description>Recent content in queue on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://vitochin.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vitochin.com/tags/queue/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
 It also depends on the motivations of the architect and the team.
 Ceteris paribus (i.e. we do not consider application design here), I’ll say there’s the ideal, and there’s the pragmatic.
 Ideally, the queue-based load leveling patterncalls for a high throughput queue to be placed before services (such as that for data persistency) as it may be slower (memory vs disk, etc.</description>
-    </item>
-    
-    <item>
-      <title>Writing, 2020</title>
-      <link>https://vitochin.com/blog/2020/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/blog/2020/</guid>
-      <description>In the past, I used to write long form blogs, with proper sentences and paragraphs :)
-Restarting my site this 2020, I think it may not be effective anymore:
- Slow to write: which means I write less, not a bad thing, but I want to record more, for memory. Slow to read: I don&amp;rsquo;t think most readers have time / patience to read long form by someone like me, I am not Paul Graham, not that he write too long too.</description>
     </item>
     
   </channel>
