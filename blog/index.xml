@@ -20,7 +20,7 @@
       <description>It’s kind of a tacit art more than science.
 It also depends on the motivations of the architect and the team.
 Ceteris paribus (i.e. we do not consider application design here), I’ll say there’s the ideal, and there’s the pragmatic.
-Ideally, the queue-based load leveling patterncalls for a high throughput queue to be placed before services (such as that for data persistency) as it may be slower (memory vs disk, etc.</description>
+Ideally, the queue-based load leveling pattern calls for a high throughput queue to be placed before services (such as that for data persistency) as it may be slower (memory vs disk, etc.</description>
     </item>
     
     <item>
