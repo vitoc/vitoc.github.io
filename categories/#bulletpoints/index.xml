@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure on Vito Chin</title>
-    <link>https://vitochin.com/categories/azure/</link>
-    <description>Recent content in Azure on Vito Chin</description>
+    <title>#BulletPoints on Vito Chin</title>
+    <link>https://vitochin.com/categories/#bulletpoints/</link>
+    <description>Recent content in #BulletPoints on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://vitochin.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vitochin.com/categories/#bulletpoints/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,18 +19,6 @@
       <guid>https://vitochin.com/blog/sqldb/</guid>
       <description>This is my #BulletPoints for Azure SQL Database.
 #BulletPoints are my kind of note-taking. I think it helps while learning a new subject or preparing for a certification exam. It may not make much sense if you read it raw, but is a great aide for recall. It usually contains only unique new learnings. You can also use it to check for important points post reading the suggested documents too.</description>
-    </item>
-    
-    <item>
-      <title>To queue or not to queue</title>
-      <link>https://vitochin.com/blog/queue/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/blog/queue/</guid>
-      <description>It’s kind of a tacit art more than science.
-It also depends on the motivations of the architect and the team.
-Ceteris paribus (i.e. we do not consider application design here), I’ll say there’s the ideal, and there’s the pragmatic.
-Ideally, the queue-based load leveling pattern calls for a high throughput queue to be placed before services (such as that for data persistency) as it may be slower (memory vs disk, etc.</description>
     </item>
     
   </channel>
