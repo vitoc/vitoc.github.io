@@ -3,6 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vitochin.com/blog/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/categories/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/culture/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/life/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/categories/pair-blogging/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/blog/pairblogging/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/software/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/technology/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/writing/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/categories/azure/</loc>
+    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/blog/table-storage/</loc>
+    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/pop-quiz/</loc>
+    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/table-storage/</loc>
+    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vitochin.com/categories/#bulletpoints/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url>
@@ -18,32 +93,7 @@
   </url>
   
   <url>
-    <loc>https://vitochin.com/categories/azure/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/blog/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/categories/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vitochin.com/tags/sql/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/tags/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,22 +118,12 @@
   </url>
   
   <url>
-    <loc>https://vitochin.com/tags/software/</loc>
-    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vitochin.com/blog/queue/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://vitochin.com/categories/personal/</loc>
-    <lastmod>2020-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/tags/writing/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   

@@ -6,10 +6,52 @@
     <description>Recent content on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vitochin.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pair Blogging: The Epoch</title>
+      <link>https://vitochin.com/blog/pairblogging/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/blog/pairblogging/</guid>
+      <description>AD:
+So how do we write a blog post together Vito?
+VC: What do you want to write about?
+AD: I don’t know
+What should we?
+Tech?
+Culture?
+Life?
+Let’s do it bro
+VC:
+Sure
+UX maybe 😊 inclusive UX?
+AD:
+That isn’t bad
+Something we have strong opinions about
+Or maybe contrasting opinions
+Hah!
+VC:
+but I tend to eventually agree with yours though 😊
+AD:
+Other way round lol!</description>
+    </item>
+    
+    <item>
+      <title>How many transactions does it take to delete 1000 entities in Azure Table Storage?</title>
+      <link>https://vitochin.com/blog/table-storage/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/blog/table-storage/</guid>
+      <description>Any type of operation against the storage is counted as a transaction, including reads, writes, and deletes.
+It takes 2000 transactions to delete 1000 entities.
+Explore in Azure Monitoring You can observe this in Azure Monitor, try deleting a
+How much does it cost? With entity groups Trivia: You can icnclude up to 100 entities in an entity group transaction.
+Caveat This is as per 17th june 2020</description>
+    </item>
     
     <item>
       <title>#BulletPoints for Azure SQL Database</title>
@@ -64,7 +106,7 @@ Photo credits Photos and images used as decorative banner for blogposts comes fr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vitochin.com/about/azure/</guid>
-      <description>Vito On Azure This is a collection of demos, guides, events, thoughts and software that I made at Microsoft, inspired by the customers and partners that I work with :)
+      <description>Vito On Azure This is a collection of demos, guides, events, thoughts and software that are useful for Azure developers, architects, customers and partners that I work with at Microsoft. Some of these are made by me, others by colleague and the cloud community :)
 Recent Videos Unlimited Scale for Node.js application Azure is a great development and deployment option for Node.js applications. Join Vito as he walks you through Visual Studio Code features for Azure productivity, great Azure cloud features that help you scale globally, interesting Azure services that you can reuse instead of building your own as well as automation options that enhances your cloud experience.</description>
     </item>
     

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pop Quiz on Vito Chin</title>
+    <link>https://vitochin.com/tags/pop-quiz/</link>
+    <description>Recent content in Pop Quiz on Vito Chin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://vitochin.com/tags/pop-quiz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How many transactions does it take to delete 1000 entities in Azure Table Storage?</title>
+      <link>https://vitochin.com/blog/table-storage/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/blog/table-storage/</guid>
+      <description>Any type of operation against the storage is counted as a transaction, including reads, writes, and deletes.
+It takes 2000 transactions to delete 1000 entities.
+Explore in Azure Monitoring You can observe this in Azure Monitor, try deleting a
+How much does it cost? With entity groups Trivia: You can icnclude up to 100 entities in an entity group transaction.
+Caveat This is as per 17th june 2020</description>
+    </item>
+    
+  </channel>
+</rss>

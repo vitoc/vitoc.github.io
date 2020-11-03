@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vitochin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Culture</title>
+      <link>https://vitochin.com/tags/culture/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://vitochin.com/tags/life/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://vitochin.com/tags/software/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://vitochin.com/tags/technology/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://vitochin.com/tags/writing/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pop Quiz</title>
+      <link>https://vitochin.com/tags/pop-quiz/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/pop-quiz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Table Storage</title>
+      <link>https://vitochin.com/tags/table-storage/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/table-storage/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AZ-301</title>
@@ -62,24 +125,6 @@
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vitochin.com/tags/queue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://vitochin.com/tags/software/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>writing</title>
-      <link>https://vitochin.com/tags/writing/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/writing/</guid>
       <description></description>
     </item>
     
