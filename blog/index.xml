@@ -6,10 +6,22 @@
     <description>Recent content in Blog on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vitochin.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating a multi-device map with Azure IoT Central</title>
+      <link>https://vitochin.com/blog/iotcentralmultidevices/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/blog/iotcentralmultidevices/</guid>
+      <description>If you use IoT Central, one of the most common dashboard that you may want to have is a map that shows where your IoT devices are.
+Here are 3 steps steps to get such a dashboard.
+ 1) Add location as a capability
+If your devices has the capability to send its location, this should already be configured on your device template. Otherwise, you can add the following capability:</description>
+    </item>
     
     <item>
       <title>Pair Blogging: The Epoch</title>
@@ -38,19 +50,6 @@ VC:
 but I tend to eventually agree with yours though 😊
 AD:
 Other way round lol!</description>
-    </item>
-    
-    <item>
-      <title>How many transactions does it take to delete 1000 entities in Azure Table Storage?</title>
-      <link>https://vitochin.com/blog/table-storage/</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/blog/table-storage/</guid>
-      <description>Any type of operation against the storage is counted as a transaction, including reads, writes, and deletes.
-It takes 2000 transactions to delete 1000 entities.
-Explore in Azure Monitoring You can observe this in Azure Monitor, try deleting a
-How much does it cost? With entity groups Trivia: You can icnclude up to 100 entities in an entity group transaction.
-Caveat This is as per 17th june 2020</description>
     </item>
     
     <item>

@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://vitochin.com/categories/azure/</loc>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://vitochin.com/blog/</loc>
-    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://vitochin.com/categories/</loc>
-    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/blog/iotcentralmultidevices/</loc>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/iot/</loc>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/map/</loc>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/tags/</loc>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vitochin.com/</loc>
+    <lastmod>2021-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,43 +68,13 @@
   </url>
   
   <url>
-    <loc>https://vitochin.com/tags/</loc>
-    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://vitochin.com/tags/technology/</loc>
-    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://vitochin.com/tags/writing/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/categories/azure/</loc>
-    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/blog/table-storage/</loc>
-    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/tags/pop-quiz/</loc>
-    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/tags/table-storage/</loc>
-    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>

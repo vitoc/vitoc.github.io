@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vitochin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iot</title>
+      <link>https://vitochin.com/tags/iot/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>map</title>
+      <link>https://vitochin.com/tags/map/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/tags/map/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Culture</title>
@@ -53,24 +71,6 @@
       <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vitochin.com/tags/writing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pop Quiz</title>
-      <link>https://vitochin.com/tags/pop-quiz/</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/pop-quiz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Table Storage</title>
-      <link>https://vitochin.com/tags/table-storage/</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/table-storage/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vitochin.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure</title>
+      <link>https://vitochin.com/categories/azure/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/categories/azure/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pair Blogging</title>
@@ -17,15 +26,6 @@
       <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vitochin.com/categories/pair-blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Azure</title>
-      <link>https://vitochin.com/categories/azure/</link>
-      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/categories/azure/</guid>
       <description></description>
     </item>
     
