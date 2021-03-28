@@ -6,10 +6,22 @@
     <description>Recent content in Azure on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vitochin.com/categories/azure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using abstraction as a framework for discussions</title>
+      <link>https://vitochin.com/blog/abstraction/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/blog/abstraction/</guid>
+      <description>As a Solution Architect, I often find myself in discussions with two kinds of audiences:
+The Engineer Here, I refer to those that wants to &amp;lsquo;see the matrix&amp;rsquo; to a certain depth, (i.e. how the sausage is made somewhere between assembly language to GUI).
+The Executive This is from the endearing term &#39;Executive Summary&#39;.
+Here, it is less about &amp;lsquo;the matrix&amp;rsquo; but how they can leverage a certain resource to maximize a certain other resource (i.</description>
+    </item>
     
     <item>
       <title>Creating a multi-device map with Azure IoT Central</title>

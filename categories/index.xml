@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Vito Chin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://vitochin.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>Azure</title>
       <link>https://vitochin.com/categories/azure/</link>
-      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vitochin.com/categories/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://vitochin.com/categories/personal/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>professional</title>
+      <link>https://vitochin.com/categories/professional/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vitochin.com/categories/professional/</guid>
       <description></description>
     </item>
     
@@ -35,15 +53,6 @@
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://vitochin.com/categories/#bulletpoints/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>https://vitochin.com/categories/personal/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/categories/personal/</guid>
       <description></description>
     </item>
     
