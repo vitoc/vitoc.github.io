@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Fun with Cloudflare Zero Trust | Vito Chin</title>
+<meta name="keywords" content="Technology, Zero Trust, Security">
+<meta name="description" content="Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies">
+<meta name="author" content="Vito Chin">
+<link rel="canonical" href="https://vitochin.com/blog/cloudflare/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://vitochin.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vitochin.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vitochin.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vitochin.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vitochin.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://vitochin.com/blog/cloudflare/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-3309488-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta property="og:title" content="Fun with Cloudflare Zero Trust" />
+<meta property="og:description" content="Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vitochin.com/blog/cloudflare/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-04-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-04-09T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fun with Cloudflare Zero Trust"/>
+<meta name="twitter:description" content="Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies"/>
+<meta name="twitter:site" content="@vitoc"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "https://vitochin.com/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Fun with Cloudflare Zero Trust",
+      "item": "https://vitochin.com/blog/cloudflare/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fun with Cloudflare Zero Trust",
+  "name": "Fun with Cloudflare Zero Trust",
+  "description": "Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies",
+  "keywords": [
+    "Technology", "Zero Trust", "Security"
+  ],
+  "articleBody": "I signed up for Cloudflare Zero Trust recently, to kick the tires :) There is a free tier (up to 50 users!) and it can be turned on instantly via self-service signup. I had used other Cloudflare products to protect and cache several websites before, and thus was excited to see if Cloudflare Zero Trust matches that experience.\nUse-case I am using Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies.\nLeast privilege per-request access decisioning is one of the strongest points of the operative definition of zero trust (see NIST Special Publication 800-207. AUPs (Acceptable User Policy) enforced technically like this is also better than manual enforcement such as with a static document. Similarly, device posture policies are a great way to ensure that only healthy devices that you accept are able to gain access to resources.\nWARP After creating an initial Cloudflare Zero Trust environment, I installed the Cloudflare WARP client on my devices.\nThe Cloudflare WARP client can be used as a standalone app that optimizes the device’s internet connectivity via the Cloudflare network. It can also be used to enroll user devices to the Secure Web Gateway.\nThere’s a few ways to do this as described in Cloudflare s WARP setup documentation. I went with the One-time PIN login method.\nThere are two fundamental things to watch out for here. On the Gateway side, make sure you add the user to your team. The user’s e-mail is particularly important to get right. On the client side, make sure you specify the right Team name. This can be glimpsed on Settings \u003e General \u003e Team domain.\nOnce done, you should be able to see something similar to this on your WARP client:\nDevice posture Once the devices are enrolled, device posture checks can be added in Settings \u003e WARP Client \u003e Device posture:\nA variety of checks are possible such as checking OS versions, if a specific application is installed or the presence of specific files. Integration with device posture providers such as Microsoft Endpoint Manager and CrowdStrike is possible too.\nGateway policies The Device posture checks that are put in place can be used for firewall and egress policies at the Gateway level. Here’s an example policy scope for Twitter users that are on iOS:\nIn the above example, we scope by domain, but scoping by applications are possible too:\nWhen applied, the devices will see the effect at the network level. Here’s an example of Twitter blocked:\nAccess policies Closer to the tenets of Zero Trust, application access policies can be a lot more detailed. Some of the possible settings and features:\n*Session duration *Restriction by user identity, emails, auth method, IP ranges, country, etc. *Require purpose justifications with customized justification prompt *Require approvers *Temporary access\nUp next: API The next feature that I will be exploring in Cloudflare Zero Trust is the API. The availability of a secure API should be one of the core criteria when evaluating architectural solutions. Quoting Evan Gilman \u0026 Doug Barth’s Zero Trust Networks:\n“Zero trust networks do not require new protocols or libraries. They do, however, use existing technologies in novel ways. Automation systems are what allow a zero trust network to be built and operated”\nAPI is an enabler of Automation. The possibility of managing Cloudflare Zero Trust via Terraform and the comprehensive API coverage of Cloudflare services does make it quite exciting. Watch this space!\n",
+  "wordCount" : "587",
+  "inLanguage": "en",
+  "datePublished": "2023-04-09T00:00:00Z",
+  "dateModified": "2023-04-09T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Vito Chin"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vitochin.com/blog/cloudflare/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vito Chin",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vitochin.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vitochin.com/" accesskey="h" title="Vito Chin (Alt + H)">Vito Chin</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vitochin.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vitochin.com/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vitochin.com/about/azure" title="Azure">
+                    <span>Azure</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vitochin.com/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/newsletters/6988070303662845952/" title="Subscribe">
+                    <span>Subscribe</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://vitoc.azurewebsites.net/" title="Before 2020">
+                    <span>Before 2020</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Fun with Cloudflare Zero Trust
+    </h1>
+    <div class="post-description">
+      Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies
+    </div>
+    <div class="post-meta"><span title='2023-04-09 00:00:00 +0000 UTC'>April 9, 2023</span>&nbsp;·&nbsp;Vito Chin
+
+</div>
+  </header> 
+  <div class="post-content"><p>I signed up for Cloudflare Zero Trust recently, to kick the tires :) There is a free tier (up to 50 users!) and it can be turned on instantly via self-service signup. I had used other Cloudflare products to protect and cache several websites before, and thus was excited to see if Cloudflare Zero Trust matches that experience.</p>
+<h1 id="use-case">Use-case<a hidden class="anchor" aria-hidden="true" href="#use-case">#</a></h1>
+<p>I am using Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies.</p>
+<p>Least privilege per-request access decisioning is one of the strongest points of the operative definition of zero trust (see <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf">NIST Special Publication 800-207</a>. AUPs (Acceptable User Policy) enforced technically like this is also better than manual enforcement such as with a static document. Similarly, device posture policies are a great way to ensure that only healthy devices that you accept are able to gain access to resources.</p>
+<h1 id="warp">WARP<a hidden class="anchor" aria-hidden="true" href="#warp">#</a></h1>
+<p>After creating an initial Cloudflare Zero Trust environment, I installed the <a href="https://cloudflarewarp.com/">Cloudflare WARP client</a> on my devices.</p>
+<p>The Cloudflare WARP client can be used as a standalone app that optimizes the device&rsquo;s internet connectivity via the Cloudflare network. It can also be used to enroll user devices to the Secure Web Gateway.</p>
+<p>There&rsquo;s a few ways to do this as described in Cloudflare
+s <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/set-up-warp/">WARP setup documentation</a>. I went with the <a href="https://developers.cloudflare.com/cloudflare-one/identity/one-time-pin/">One-time PIN login method</a>.</p>
+<p>There are two fundamental things to watch out for here. On the Gateway side, make sure you add the user to your team. The user&rsquo;s e-mail is particularly important to get right. On the client side, make sure you specify the right Team name. This can be glimpsed on Settings &gt; General &gt; Team domain.</p>
+<p>Once done, you should be able to see something similar to this on your WARP client:</p>
+<p><img src='/img/zerotrust/CFZT_WARP_Client.png' > </img></p>
+<h1 id="device-posture">Device posture<a hidden class="anchor" aria-hidden="true" href="#device-posture">#</a></h1>
+<p>Once the devices are enrolled, device posture checks can be added in Settings &gt;  WARP Client &gt; Device posture:</p>
+<p><img src='/img/zerotrust/CZFT_Device_Posture.PNG' > </img></p>
+<p>A variety of checks are possible such as checking OS versions, if a specific application is installed or the presence of specific files. Integration with device posture providers such as Microsoft Endpoint Manager and CrowdStrike is possible too.</p>
+<h1 id="gateway-policies">Gateway policies<a hidden class="anchor" aria-hidden="true" href="#gateway-policies">#</a></h1>
+<p>The Device posture checks that are put in place can be used for firewall and egress policies at the Gateway level. Here&rsquo;s an example policy scope for Twitter users that are on iOS:</p>
+<p><img src='/img/zerotrust/CFZT_BuildAnExpression.PNG' > </img></p>
+<p>In the above example, we scope by domain, but scoping by applications are possible too:</p>
+<p><img src='/img/zerotrust/CFZT_ApplicationIn.PNG' > </img></p>
+<p>When applied, the devices will see the effect at the network level. Here&rsquo;s an example of Twitter blocked:</p>
+<p><img src='/img/zerotrust/CFZT_Blocked.png' > </img></p>
+<h1 id="access-policies">Access policies<a hidden class="anchor" aria-hidden="true" href="#access-policies">#</a></h1>
+<p>Closer to the tenets of Zero Trust, application access policies can be a lot more detailed. Some of the possible settings and features:</p>
+<p>*Session duration
+*Restriction by user identity, emails, auth method, IP ranges, country, etc.
+*Require purpose justifications with customized justification prompt
+*Require approvers
+*Temporary access</p>
+<h1 id="up-next-api">Up next: API<a hidden class="anchor" aria-hidden="true" href="#up-next-api">#</a></h1>
+<p>The next feature that I will be exploring in Cloudflare Zero Trust is the API. The availability of a secure API should be one of the core criteria when evaluating architectural solutions. Quoting Evan Gilman &amp; Doug Barth&rsquo;s Zero Trust Networks:</p>
+<p>&ldquo;Zero trust networks do not require new protocols or libraries. They do, however, use existing technologies in novel ways. Automation systems are what allow a zero trust network to be built and operated&rdquo;</p>
+<p>API is an enabler of Automation. The possibility of managing Cloudflare Zero Trust via Terraform and the comprehensive API coverage of Cloudflare services does make it quite exciting. Watch this space!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://vitochin.com/tags/technology/">Technology</a></li>
+      <li><a href="https://vitochin.com/tags/zero-trust/">Zero Trust</a></li>
+      <li><a href="https://vitochin.com/tags/security/">Security</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://vitochin.com/">Vito Chin</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

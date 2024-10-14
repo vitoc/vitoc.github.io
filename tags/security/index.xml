@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security on Vito Chin</title>
+    <link>https://vitochin.com/tags/security/</link>
+    <description>Recent content in Security on Vito Chin</description>
+    <generator>Hugo -- 0.123.7</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vitochin.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun with Cloudflare Zero Trust</title>
+      <link>https://vitochin.com/blog/cloudflare/</link>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/blog/cloudflare/</guid>
+      <description>Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies</description>
+    </item>
+  </channel>
+</rss>

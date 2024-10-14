@@ -1,132 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Vito Chin</title>
     <link>https://vitochin.com/tags/</link>
     <description>Recent content in Tags on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vitochin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>iot</title>
-      <link>https://vitochin.com/tags/iot/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/iot/</guid>
+      <title>Security</title>
+      <link>https://vitochin.com/tags/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/tags/security/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>map</title>
-      <link>https://vitochin.com/tags/map/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/map/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>https://vitochin.com/tags/culture/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://vitochin.com/tags/life/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://vitochin.com/tags/software/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/tags/software/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Technology</title>
       <link>https://vitochin.com/tags/technology/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/technology/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>writing</title>
+      <title>Zero Trust</title>
+      <link>https://vitochin.com/tags/zero-trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/tags/zero-trust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iot</title>
+      <link>https://vitochin.com/tags/iot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/tags/iot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Map</title>
+      <link>https://vitochin.com/tags/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/tags/map/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Culture</title>
+      <link>https://vitochin.com/tags/culture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/tags/culture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>https://vitochin.com/tags/life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://vitochin.com/tags/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
       <link>https://vitochin.com/tags/writing/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/writing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AZ-301</title>
       <link>https://vitochin.com/tags/az-301/</link>
-      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/az-301/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SQL</title>
       <link>https://vitochin.com/tags/sql/</link>
-      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/sql/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>architecture</title>
+      <title>Architecture</title>
       <link>https://vitochin.com/tags/architecture/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/architecture/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cloud</title>
+      <title>Cloud</title>
       <link>https://vitochin.com/tags/cloud/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/cloud/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>partners</title>
+      <title>Partners</title>
       <link>https://vitochin.com/tags/partners/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/partners/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>queue</title>
+      <title>Queue</title>
       <link>https://vitochin.com/tags/queue/</link>
-      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/tags/queue/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

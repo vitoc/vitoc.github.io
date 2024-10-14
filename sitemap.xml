@@ -1,157 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://vitochin.com/categories/azure/</loc>
-    <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://vitochin.com/blog/</loc>
-    <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://vitochin.com/categories/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/blog/cloudflare/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/tags/security/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/tags/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/tags/technology/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/tags/zero-trust/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/categories/zero-trust/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vitochin.com/categories/azure/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/iot/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/map/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/categories/personal/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/categories/professional/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/tags/</loc>
-    <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/blog/abstraction/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/</loc>
-    <lastmod>2021-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/blog/iotcentralmultidevices/</loc>
     <lastmod>2021-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/culture/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/life/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/categories/pair-blogging/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/blog/pairblogging/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/software/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/tags/technology/</loc>
-    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/writing/</loc>
     <lastmod>2020-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/categories/#bulletpoints/</loc>
+  </url><url>
+    <loc>https://vitochin.com/categories/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/blog/sqldb/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/az-301/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/sql/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/architecture/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/cloud/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/partners/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/tags/queue/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/blog/queue/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/blog/2020/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://vitochin.com/about/attribution/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/about/azure/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://vitochin.com/about/</loc>
   </url>
-  
 </urlset>

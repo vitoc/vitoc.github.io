@@ -1,44 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Life on Vito Chin</title>
     <link>https://vitochin.com/tags/life/</link>
     <description>Recent content in Life on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
     <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vitochin.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pair Blogging: The Epoch</title>
       <link>https://vitochin.com/blog/pairblogging/</link>
       <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/pairblogging/</guid>
-      <description>AD:
-So how do we write a blog post together Vito?
-VC: What do you want to write about?
-AD: I don’t know
-What should we?
-Tech?
-Culture?
-Life?
-Let’s do it bro
-VC:
-Sure
-UX maybe 😊 inclusive UX?
-AD:
-That isn’t bad
-Something we have strong opinions about
-Or maybe contrasting opinions
-Hah!
-VC:
-but I tend to eventually agree with yours though 😊
-AD:
-Other way round lol!</description>
+      <description>Episode #1 in a series of conversations between Vito Chin and Allen Ding about technology, culture, and life.</description>
     </item>
-    
   </channel>
 </rss>

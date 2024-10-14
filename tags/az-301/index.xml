@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AZ-301 on Vito Chin</title>
     <link>https://vitochin.com/tags/az-301/</link>
     <description>Recent content in AZ-301 on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
     <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/tags/az-301/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vitochin.com/tags/az-301/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#BulletPoints for Azure SQL Database</title>
       <link>https://vitochin.com/blog/sqldb/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/sqldb/</guid>
       <description>This is my #BulletPoints for Azure SQL Database.
 #BulletPoints are my kind of note-taking. I think it helps while learning a new subject or preparing for a certification exam. It may not make much sense if you read it raw, but is a great aide for recall. It usually contains only unique new learnings. You can also use it to check for important points post reading the suggested documents too.</description>
     </item>
-    
   </channel>
 </rss>

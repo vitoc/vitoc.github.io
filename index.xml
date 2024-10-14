@@ -1,125 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vito Chin</title>
     <link>https://vitochin.com/</link>
     <description>Recent content on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vitochin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun with Cloudflare Zero Trust</title>
+      <link>https://vitochin.com/blog/cloudflare/</link>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/blog/cloudflare/</guid>
+      <description>Cloudflare Zero Trust to create a SWG (Secure Web Gateway) and CASB (Cloud Access Security Broker) where I can enforce access, acceptable use and device posture policies</description>
+    </item>
     <item>
       <title>Using abstraction as a framework for discussions</title>
       <link>https://vitochin.com/blog/abstraction/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/abstraction/</guid>
-      <description>As a Solution Architect, I often find myself in discussions with two kinds of audiences:
-The Engineer Here, I refer to those that wants to &amp;lsquo;see the matrix&amp;rsquo; to a certain depth, (i.e. how the sausage is made somewhere between assembly language to GUI).
-The Executive This is from the endearing term &#39;Executive Summary&#39;.
-Here, it is less about &amp;lsquo;the matrix&amp;rsquo; but how they can leverage a certain resource to maximize a certain other resource (i.</description>
+      <description>Know your audience!</description>
     </item>
-    
     <item>
       <title>Creating a multi-device map with Azure IoT Central</title>
       <link>https://vitochin.com/blog/iotcentralmultidevices/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/iotcentralmultidevices/</guid>
-      <description>If you use IoT Central, one of the most common dashboard that you may want to have is a map that shows where your IoT devices are.
-Here are 3 steps steps to get such a dashboard.
- 1) Add location as a capability
-If your devices has the capability to send its location, this should already be configured on your device template. Otherwise, you can add the following capability:</description>
+      <description>Set it up with just 3 steps :)</description>
     </item>
-    
     <item>
       <title>Pair Blogging: The Epoch</title>
       <link>https://vitochin.com/blog/pairblogging/</link>
       <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/pairblogging/</guid>
-      <description>AD:
-So how do we write a blog post together Vito?
-VC: What do you want to write about?
-AD: I don’t know
-What should we?
-Tech?
-Culture?
-Life?
-Let’s do it bro
-VC:
-Sure
-UX maybe 😊 inclusive UX?
-AD:
-That isn’t bad
-Something we have strong opinions about
-Or maybe contrasting opinions
-Hah!
-VC:
-but I tend to eventually agree with yours though 😊
-AD:
-Other way round lol!</description>
+      <description>Episode #1 in a series of conversations between Vito Chin and Allen Ding about technology, culture, and life.</description>
     </item>
-    
     <item>
       <title>#BulletPoints for Azure SQL Database</title>
       <link>https://vitochin.com/blog/sqldb/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/sqldb/</guid>
       <description>This is my #BulletPoints for Azure SQL Database.
 #BulletPoints are my kind of note-taking. I think it helps while learning a new subject or preparing for a certification exam. It may not make much sense if you read it raw, but is a great aide for recall. It usually contains only unique new learnings. You can also use it to check for important points post reading the suggested documents too.</description>
     </item>
-    
     <item>
       <title>To queue or not to queue</title>
       <link>https://vitochin.com/blog/queue/</link>
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/queue/</guid>
-      <description>It’s kind of a tacit art more than science.
-It also depends on the motivations of the architect and the team.
-Ceteris paribus (i.e. we do not consider application design here), I’ll say there’s the ideal, and there’s the pragmatic.
-Ideally, the queue-based load leveling pattern calls for a high throughput queue to be placed before services (such as that for data persistency) as it may be slower (memory vs disk, etc.</description>
+      <description>Architectural queueing considerations</description>
     </item>
-    
     <item>
       <title>Writing, 2020</title>
       <link>https://vitochin.com/blog/2020/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/2020/</guid>
-      <description>In the past, I used to write long form blogs, with proper sentences and paragraphs :)
-Restarting my site this 2020, I think it may not be effective anymore:
- Slow to write: which means I write less, not a bad thing, but I want to record more, for memory. Slow to read: I don&amp;rsquo;t think most readers have time / patience to read long form by someone like me, I am not Paul Graham, not that he write too long too.</description>
+      <description>I still believe it is useful, changing how I do it to do more</description>
     </item>
-    
-    <item>
-      <title>Attribution</title>
-      <link>https://vitochin.com/about/attribution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/about/attribution/</guid>
-      <description>Meta The custom theme for this website is forked from Hugo Future Imperfect Slim
-The fork is here.
-There are quite a few subtle differences (the images doesn&amp;rsquo;t zoom when hovered for example).
-The Hugo Future Imperfect Slim theme itself is ported from HTML5 UP&amp;rsquo;s Future Imperfect.
-The eventual markups, supporting styles and JavaScript for this site is statically generated using Hugo.
-Photo credits Photos and images used as decorative banner for blogposts comes from Unsplash, as follows:</description>
-    </item>
-    
     <item>
       <title>Azure Playlist</title>
       <link>https://vitochin.com/about/azure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/about/azure/</guid>
-      <description>Vito On Azure This is a collection of demos, guides, events, thoughts and software that are useful for Azure developers, architects, customers and partners that I work with at Microsoft. Some of these are made by me, others by colleague and the cloud community :)
+      <description>Vito On Azure: This is a collection of demos, guides, events, thoughts and software that are useful for Azure developers, architects, customers and partners that I work with at Microsoft. Some of these are made by me, others by colleague and the cloud community :)
 Recent Videos Unlimited Scale for Node.js application Azure is a great development and deployment option for Node.js applications. Join Vito as he walks you through Visual Studio Code features for Azure productivity, great Azure cloud features that help you scale globally, interesting Azure services that you can reuse instead of building your own as well as automation options that enhances your cloud experience.</description>
     </item>
-    
   </channel>
 </rss>

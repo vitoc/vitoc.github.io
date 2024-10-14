@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>architecture on Vito Chin</title>
+    <title>Architecture on Vito Chin</title>
     <link>https://vitochin.com/tags/architecture/</link>
-    <description>Recent content in architecture on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Architecture on Vito Chin</description>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
     <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vitochin.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>To queue or not to queue</title>
       <link>https://vitochin.com/blog/queue/</link>
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/queue/</guid>
-      <description>It’s kind of a tacit art more than science.
-It also depends on the motivations of the architect and the team.
-Ceteris paribus (i.e. we do not consider application design here), I’ll say there’s the ideal, and there’s the pragmatic.
-Ideally, the queue-based load leveling pattern calls for a high throughput queue to be placed before services (such as that for data persistency) as it may be slower (memory vs disk, etc.</description>
+      <description>Architectural queueing considerations</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,39 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>iot on Vito Chin</title>
+    <title>Iot on Vito Chin</title>
     <link>https://vitochin.com/tags/iot/</link>
-    <description>Recent content in iot on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Iot on Vito Chin</description>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vitochin.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using abstraction as a framework for discussions</title>
       <link>https://vitochin.com/blog/abstraction/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/abstraction/</guid>
-      <description>As a Solution Architect, I often find myself in discussions with two kinds of audiences:
-The Engineer Here, I refer to those that wants to &amp;lsquo;see the matrix&amp;rsquo; to a certain depth, (i.e. how the sausage is made somewhere between assembly language to GUI).
-The Executive This is from the endearing term &#39;Executive Summary&#39;.
-Here, it is less about &amp;lsquo;the matrix&amp;rsquo; but how they can leverage a certain resource to maximize a certain other resource (i.</description>
+      <description>Know your audience!</description>
     </item>
-    
     <item>
       <title>Creating a multi-device map with Azure IoT Central</title>
       <link>https://vitochin.com/blog/iotcentralmultidevices/</link>
       <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/iotcentralmultidevices/</guid>
-      <description>If you use IoT Central, one of the most common dashboard that you may want to have is a map that shows where your IoT devices are.
-Here are 3 steps steps to get such a dashboard.
- 1) Add location as a capability
-If your devices has the capability to send its location, this should already be configured on your device template. Otherwise, you can add the following capability:</description>
+      <description>Set it up with just 3 steps :)</description>
     </item>
-    
   </channel>
 </rss>

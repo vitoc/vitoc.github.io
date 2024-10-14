@@ -1,38 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal on Vito Chin</title>
     <link>https://vitochin.com/categories/personal/</link>
     <description>Recent content in Personal on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/categories/personal/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vitochin.com/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using abstraction as a framework for discussions</title>
       <link>https://vitochin.com/blog/abstraction/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/abstraction/</guid>
-      <description>As a Solution Architect, I often find myself in discussions with two kinds of audiences:
-The Engineer Here, I refer to those that wants to &amp;lsquo;see the matrix&amp;rsquo; to a certain depth, (i.e. how the sausage is made somewhere between assembly language to GUI).
-The Executive This is from the endearing term &#39;Executive Summary&#39;.
-Here, it is less about &amp;lsquo;the matrix&amp;rsquo; but how they can leverage a certain resource to maximize a certain other resource (i.</description>
+      <description>Know your audience!</description>
     </item>
-    
     <item>
       <title>Writing, 2020</title>
       <link>https://vitochin.com/blog/2020/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/2020/</guid>
-      <description>In the past, I used to write long form blogs, with proper sentences and paragraphs :)
-Restarting my site this 2020, I think it may not be effective anymore:
- Slow to write: which means I write less, not a bad thing, but I want to record more, for memory. Slow to read: I don&amp;rsquo;t think most readers have time / patience to read long form by someone like me, I am not Paul Graham, not that he write too long too.</description>
+      <description>I still believe it is useful, changing how I do it to do more</description>
     </item>
-    
   </channel>
 </rss>

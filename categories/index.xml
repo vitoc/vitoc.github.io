@@ -1,60 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Vito Chin</title>
     <link>https://vitochin.com/categories/</link>
     <description>Recent content in Categories on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vitochin.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zero Trust</title>
+      <link>https://vitochin.com/categories/zero-trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/categories/zero-trust/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Azure</title>
       <link>https://vitochin.com/categories/azure/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/categories/azure/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Personal</title>
       <link>https://vitochin.com/categories/personal/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/categories/personal/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>professional</title>
+      <title>Professional</title>
       <link>https://vitochin.com/categories/professional/</link>
-      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/categories/professional/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Pair Blogging</title>
       <link>https://vitochin.com/categories/pair-blogging/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://vitochin.com/categories/pair-blogging/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>#BulletPoints</title>
-      <link>https://vitochin.com/categories/#bulletpoints/</link>
-      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://vitochin.com/categories/#bulletpoints/</guid>
+      <link>https://vitochin.com/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/categories/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

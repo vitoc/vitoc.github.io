@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>professional on Vito Chin</title>
+    <title>Professional on Vito Chin</title>
     <link>https://vitochin.com/categories/professional/</link>
-    <description>Recent content in professional on Vito Chin</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Professional on Vito Chin</description>
+    <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vitochin.com/categories/professional/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://vitochin.com/categories/professional/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using abstraction as a framework for discussions</title>
       <link>https://vitochin.com/blog/abstraction/</link>
       <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://vitochin.com/blog/abstraction/</guid>
-      <description>As a Solution Architect, I often find myself in discussions with two kinds of audiences:
-The Engineer Here, I refer to those that wants to &amp;lsquo;see the matrix&amp;rsquo; to a certain depth, (i.e. how the sausage is made somewhere between assembly language to GUI).
-The Executive This is from the endearing term &#39;Executive Summary&#39;.
-Here, it is less about &amp;lsquo;the matrix&amp;rsquo; but how they can leverage a certain resource to maximize a certain other resource (i.</description>
+      <description>Know your audience!</description>
     </item>
-    
   </channel>
 </rss>
