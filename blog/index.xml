@@ -6,8 +6,17 @@
     <description>Recent content in Blog on Vito Chin</description>
     <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://vitochin.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Systems thinking lessons from Alien&#39;s Xenomorph</title>
+      <link>https://vitochin.com/blog/systems-thinking/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://vitochin.com/blog/systems-thinking/</guid>
+      <description>The Xenomorph from Alien offers a fascinating example of systems thinking, demonstrating how an organism can function as a highly efficient, self-sustaining system within a broader ecosystem. Here are several key systems thinking lessons we can draw from the Xenomorph:
+1. Adaptability and Resourcefulness
+Systems Thinking Insight: The Xenomorph is a prime example of adaptability within a system. It adapts its lifecycle to different environments (human hosts, in particular) and is able to exploit any available resource to ensure its survival and reproduction.</description>
+    </item>
     <item>
       <title>Fun with Cloudflare Zero Trust</title>
       <link>https://vitochin.com/blog/cloudflare/</link>
